@@ -10,18 +10,66 @@
     <p>Hey there! This web application is designed to derive Akan names from your birthday details using the Ghanian culture for children naming. In Ghananian culture childeren are given names as 'day names' corresponding to the day of the week they were born.</p>
     <p>Fill the form below and it will calculate for the you the day of the week you were born and  depending on your gender you will get a <strong>Akan name</strong></p>
 
-    <label for="birthday">
-      <input type="number" id="year of birth" placeholder="YYYY">
-      <input type="number" id="month of birth" placeholder="MM">
-      <input type="number" id="day of birth" placeholder="DD">
-    </label>
+
+      <input type="number" id="year " placeholder="YYYY">
+      <input type="number" id="month" placeholder="MM">
+      <input type="number" id="date" placeholder="DD">
+
+
+
+      <form name="myForm" method="post">
+      <label> Gender </label>
+      <input type="radio" name="male" value="male"  name="gender">
+      <label for= "male"> Male </label>
+      <input type="radio" name="female" value="female" name="gender">
+      <label for= "female"> Female </label>
+
+      <button type="button" onClick="submitRadioButton()"> Enter </button>
+
+
+
+
+
+
+
+
+
+
+      </form>
+
+
+
+
+
+
+  <button type="button" onclick="akanNameList()"> Submit </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <label for="gender">
 
     </label>
 
-    <button id="submit-name">Submit</button>
 
 
 
