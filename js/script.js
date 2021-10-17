@@ -63,10 +63,12 @@ function getDate() {
        akanName="Kwame"
      }
 
+
+
      if(capturedGender==="Female" && dateOfWeek===1){
        console.log("Akosua")
        akanName="Akosua"
-     ]
+     }
      else if (capturedGender==="Female" && dateOfWeek===2){
        console.log("Adwoa")
        akanName="Adwoa"

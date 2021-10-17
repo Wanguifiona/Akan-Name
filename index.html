@@ -8,14 +8,42 @@
 
     <h1>Akan Name repo generator</h1>
     <p>Hey there! This web application is designed to derive Akan names from your birthday details using the Ghanian culture for children naming. In Ghananian culture childeren are given names as 'day names' corresponding to the day of the week they were born.</p>
+    <h2> Male </h2>
+      <UL>
+        <li>Sunday: Kwasi</li>
+        <li>Monday: Kwadwo</li>
+        <li>Tuesday: Kwabena</li>
+        <li>Wednesday: Kwaku</li>
+        <li>Thursday: Yaw</li>
+        <li>Friday: Kofi</li>
+        <li>Saturday; Kwame</li>
+      </UL>
+    <h3> Female </h3>
+      <ul>
+        <li>Sunday: Akosua</li>
+        <li>Monday: Adwoa</li>
+        <li>Tuesday: Abenaa</li>
+        <li>Wednesday: Akua</li>
+        <li>Thursday:Yaa</li>
+        <li>Friday: Afua</li>
+        <li>Saturday: Ama</li>
+
+      </ul>
+
+
+
+
+
+
+
+
     <p>Fill the form below and it will calculate for the you the day of the week you were born and  depending on your gender you will get a <strong>Akan name</strong></p>
 
-    Choose your gender:
-        <br>
-        <br>
+
+    <p>Choose your gender:</p>
         <input type="radio" name="gender" id="male" value="Male">Male<br>
         <input type="radio" name="gender" id="female" value="Female">Female<br>
-        <br>
+    <p> Year you were born</p>
         <input type="date" name="birthday" placeholder="year" id="dateInput">
         <button onclick="getDate()">
         Submit
@@ -31,3 +59,7 @@
 
   </body>
 </html>
+
+   var days =("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+   var maleAkanNames = ("Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame")
+   var femaleAkanNames = ("Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama")
