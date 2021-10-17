@@ -42,7 +42,26 @@ function getDate() {
        console.log("Kwadwo")
        akanName="Kwadwo"
      }
-
+     else if (capturedGender==="Male" && dateOfWeek===3){
+       console.log("Kwabena")
+       akanName="Kwabena"
+     }
+     else if (capturedGender==="Male" && dateOfWeek===4){
+       console.log("Kwaku")
+       akanName="Kwaku"
+     }
+     else if (capturedGender==="Male" && dateOfWeek===5){
+       console.log("Yaw")
+       akanName="Yaw"
+     }
+     else if (capturedGender==="Male" && dateOfWeek===6){
+       console.log("Kofi")
+       akanName="Kofi"
+     }
+     else if (capturedGender==="Male" && dateOfWeek===7){
+       console.log("Kwame")
+       akanName="Kwame"
+     }
      alert("Your Akan name is ", akanName)
 
 
