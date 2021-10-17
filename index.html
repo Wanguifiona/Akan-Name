@@ -3,53 +3,77 @@
   <head>
     <meta charset="utf-8">
     <title> Akan Name</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css"
+
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h1>Akan Name repo generator</h1>
+          <p>Hey there! This web application is designed to derive Akan names from your birthday details using the Ghanian culture for children naming. In Ghananian culture childeren are given names as 'day names' corresponding to the day of the week they were born.</p>
+        </div>
 
-    <h1>Akan Name repo generator</h1>
-    <p>Hey there! This web application is designed to derive Akan names from your birthday details using the Ghanian culture for children naming. In Ghananian culture childeren are given names as 'day names' corresponding to the day of the week they were born.</p>
-    <h2> Male </h2>
-      <UL>
-        <li>Sunday: Kwasi</li>
-        <li>Monday: Kwadwo</li>
-        <li>Tuesday: Kwabena</li>
-        <li>Wednesday: Kwaku</li>
-        <li>Thursday: Yaw</li>
-        <li>Friday: Kofi</li>
-        <li>Saturday; Kwame</li>
-      </UL>
-    <h3> Female </h3>
-      <ul>
-        <li>Sunday: Akosua</li>
-        <li>Monday: Adwoa</li>
-        <li>Tuesday: Abenaa</li>
-        <li>Wednesday: Akua</li>
-        <li>Thursday:Yaa</li>
-        <li>Friday: Afua</li>
-        <li>Saturday: Ama</li>
+        <div class="col-md-4">
+          <h2> Male </h2>
+          <UL>
+            <li>Sunday: Kwasi</li>
+            <li>Monday: Kwadwo</li>
+            <li>Tuesday: Kwabena</li>
+            <li>Wednesday: Kwaku</li>
+            <li>Thursday: Yaw</li>
+            <li>Friday: Kofi</li>
+            <li>Saturday; Kwame</li>
+          </UL>
+        </div>
+        <div class="col-md-4">
+          <h3> Female </h3>
+          <ul>
+            <li>Sunday: Akosua</li>
+            <li>Monday: Adwoa</li>
+            <li>Tuesday: Abenaa</li>
+            <li>Wednesday: Akua</li>
+            <li>Thursday:Yaa</li>
+            <li>Friday: Afua</li>
+            <li>Saturday: Ama</li>
+          </ul>
+        </div>
 
-      </ul>
+      <div class="row">
+        <div class="col-md-4"></div>
 
-
-
-
-
-
-
-
-    <p>Fill the form below and it will calculate for the you the day of the week you were born and  depending on your gender you will get a <strong>Akan name</strong></p>
+        <div class="col-md-3 text-center">
 
 
-    <p>Choose your gender:</p>
-        <input type="radio" name="gender" id="male" value="Male">Male<br>
-        <input type="radio" name="gender" id="female" value="Female">Female<br>
-    <p> Year you were born</p>
-        <input type="date" name="birthday" placeholder="year" id="dateInput">
-        <button onclick="getDate()">
-        Submit
-        </button>
-        <br>
-        <br>
+           <p>Fill the form below and it will calculate for the you the day of the week you were born and  depending on your gender you will get a <a href="https://yen.com.gh/115080-akan-names-meanings.html"> <strong>Akan name</strong></a></p>
+           <p>Choose your gender:</p>
+           <input type="radio" name="gender" id="male" value="Male">Male<br>
+           <input type="radio" name="gender" id="female" value="Female">Female<br>
+           <p> Year you were born</p>
+           <input type="date" name="birthday" placeholder="year" id="dateInput">
+           <button onclick="getDate()">
+             Submit
+           </button>
+           <br>
+           <br>
+        </div>
+
+
+
+
+
+
+
+      </div>
+      </div>
+
+
+
+
+
+
+    </div>
 
 
 
@@ -59,7 +83,3 @@
 
   </body>
 </html>
-
-   var days =("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
-   var maleAkanNames = ("Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame")
-   var femaleAkanNames = ("Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama")

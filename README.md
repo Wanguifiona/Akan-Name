@@ -40,6 +40,12 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 link to live site :
 
+### Contact
+
+Fiona Maina - fiona.maina@student.moringaschool.com
+
+
+
 ### License
 
 *MIT*
