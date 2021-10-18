@@ -26,8 +26,8 @@ function getDate() {
 
      }
      console.log(captureDate, capturedGender)
-     const CC=parseInt(capturedYear.toString().slice(2,4))
-     const YY= parseInt(capturedYear.toString().slice(0,2))
+     const CC=parseInt(capturedYear.toString().slice(0,2))
+     const YY= parseInt(capturedYear.toString().slice(2,4))
      const MM=capturedMonth+1
      const DD=capturedDate+1
 

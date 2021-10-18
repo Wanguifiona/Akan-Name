@@ -1,0 +1,32 @@
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.name {
+  font-style:  italic;
+  color: black;
+}
+
+body {
+    font-family: 'Open Sans',serif;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: ;
+    background-image: url(../image/ghanaflag.jpg);
+}
+
+.content{
+  background-color: rgba(238, 238, 238 ,0.95);
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  margin-bottom: auto;
+  padding-bottom: 30px;
+  box-shadow: 3px 4px black;
+  border-radius: 0.5%;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
