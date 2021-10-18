@@ -16,6 +16,12 @@ function getDate() {
   const capturedDate=dateOfBirth.getDate()
   const capturedYear= dateOfBirth.getFullYear()
 
+  var weekDay=["Sunday","Monday","Tuesday" ,"Wednesday" ,"Thursday", "Friday" , "Saturday"]
+  var akanNameMale=["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw" ,"Kofi", "Kwame"]
+  var akanNameFemale=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa" ,"Afua", "Ama"]
+  var male=document.getElementById("male")
+  var female=document.getElementById("female")
+
      console.log(capturedMonth, capturedYear)
      if(document.getElementById('male').checked){
        capturedGender="Male"
@@ -34,67 +40,70 @@ function getDate() {
      const dateOfWeek=  Math.ceil(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7)
      console.log(dateOfWeek)
 
-     if(capturedGender==="Male" && dateOfWeek===1){
+     if(capturedGender==="Male" && dateOfWeek===0){
        console.log("Kwasi")
-       akanName="Kwasi"
+       akanNameMale="Kwasi"
+     }
+     else if (capturedGender==="Male" && dateOfWeek===1){
+       console.log("Kwadwo")
+       akanNameMale="Kwadwo"
      }
      else if (capturedGender==="Male" && dateOfWeek===2){
-       console.log("Kwadwo")
-       akanName="Kwadwo"
+       console.log("Kwabena")
+       akanNameMale="Kwabena"
      }
      else if (capturedGender==="Male" && dateOfWeek===3){
-       console.log("Kwabena")
-       akanName="Kwabena"
+       console.log("Kwaku")
+       akanNameMale="Kwaku"
      }
      else if (capturedGender==="Male" && dateOfWeek===4){
-       console.log("Kwaku")
-       akanName="Kwaku"
+       console.log("Yaw")
+       akanNameMale="Yaw"
      }
      else if (capturedGender==="Male" && dateOfWeek===5){
-       console.log("Yaw")
-       akanName="Yaw"
+       console.log("Kofi")
+       akanNameMale="Kofi"
      }
      else if (capturedGender==="Male" && dateOfWeek===6){
-       console.log("Kofi")
-       akanName="Kofi"
-     }
-     else if (capturedGender==="Male" && dateOfWeek===7){
        console.log("Kwame")
-       akanName="Kwame"
+       akanNameMale="Kwame"
      }
 
 
 
      if(capturedGender==="Female" && dateOfWeek===1){
        console.log("Akosua")
-       akanName="Akosua"
+       akanNameFemale="Akosua"
      }
      else if (capturedGender==="Female" && dateOfWeek===2){
        console.log("Adwoa")
-       akanName="Adwoa"
+       akanNameFemale="Adwoa"
      }
      else if (capturedGender==="Female" && dateOfWeek===3){
        console.log("Abenaa")
-       akanName="Abenaa"
+       akanNameFemale="Abenaa"
      }
      else if (capturedGender==="Female" && dateOfWeek===4){
        console.log("Akua")
-       akanName="Akua"
+       akanNameFemale="Akua"
      }
      else if (capturedGender==="Female" && dateOfWeek===5){
        console.log("Yaa")
-       akanName="Yaa"
+       akanNameFemale="Yaa"
      }
      else if (capturedGender==="Female" && dateOfWeek===6){
        console.log("Afua")
-       akanName="Afua"
+       akanNameFemale="Afua"
      }
      else if (capturedGender==="Female" && dateOfWeek===7){
        console.log("Ama")
-       akanName="Ama"
+       akanNameFemale="Ama"
      }
 
-      alert("Your Akan name is ", akanName)
+      alert("Your Akan name is ", akanNameMale+akanNameFemale)
+
+
+
 
 
 
