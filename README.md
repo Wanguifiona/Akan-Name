@@ -12,7 +12,7 @@ Fiona Maina
 fiona.maina@student.moringaschool.com
 
 
-[![Akan-name.png](   )](    )
+[![Akan-name.png](https://i.postimg.cc/qRPpDFWr/Whats-App-Image-2021-10-18-at-4-44-53-AM.jpg)](https://postimg.cc/k6yrBTnY)
 
 ## Technologies used
 
