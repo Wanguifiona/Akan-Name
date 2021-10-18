@@ -27,14 +27,20 @@ fiona.maina@student.moringaschool.com
 * Open terminal command line then navigate to the root folder of the application. cd akan-name
 * Open index.html on your Browser
 
-## Behavior Driven Development
+### Behavior Driven Development
 
 * Display form for entering date & gender
+
   -Input: Enter users birthdate
+
   -Input: Enter users gender  
+
   -Output: Generate Akan name according to the submited date and gender
+
 * Display an error message if date and gender is left blank when submitting
+
    -Input:"Empty"
+
    -Output: "Displays error message"
 
 
